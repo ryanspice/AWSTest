@@ -2,8 +2,6 @@
 
 Svelte 5 + SvelteKit application deployed with a serverless architecture on AWS. The static site is built with the SvelteKit static adapter and served from S3 via CloudFront; dynamic API endpoints under `/api/*` are routed through API Gateway (HTTP API) to a Node.js 20 Lambda function. Infrastructure is defined with AWS CDK. Development uses Bun.
 
-Badges (if configured): build status, coverage, and deploy environment can be added via your CI system.
-
 ## 1) Project Overview
 
 - SvelteKit application (Svelte 5) built with the static adapter for a fast, cache-friendly static site.

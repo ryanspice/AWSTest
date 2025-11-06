@@ -1,0 +1,36 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "2819175352ad1ce0dae768e83fc328fb70fb5f10b4a8ff0ccbcb791f02b0716d": {
+      "displayName": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/Code",
+      "source": {
+        "path": "asset.2819175352ad1ce0dae768e83fc328fb70fb5f10b4a8ff0ccbcb791f02b0716d",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "485527056249-ca-central-1-cbc0dff3": {
+          "bucketName": "cdk-hnb659fds-assets-485527056249-ca-central-1",
+          "objectKey": "2819175352ad1ce0dae768e83fc328fb70fb5f10b4a8ff0ccbcb791f02b0716d.zip",
+          "region": "ca-central-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::485527056249:role/cdk-hnb659fds-file-publishing-role-485527056249-ca-central-1"
+        }
+      }
+    },
+    "6d8c3795e312e9642131afaad5d7b506a00d366081518b8ae5876d4ddd29a0e0": {
+      "displayName": "WebStack Template",
+      "source": {
+        "path": "WebStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "485527056249-ca-central-1-3d4ae6e3": {
+          "bucketName": "cdk-hnb659fds-assets-485527056249-ca-central-1",
+          "objectKey": "6d8c3795e312e9642131afaad5d7b506a00d366081518b8ae5876d4ddd29a0e0.json",
+          "region": "ca-central-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::485527056249:role/cdk-hnb659fds-file-publishing-role-485527056249-ca-central-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
